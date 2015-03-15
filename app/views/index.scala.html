@@ -21,7 +21,7 @@
         
         <div ng-controller="ChatCtrl">
             <div id="header">
-                Your Name: <input type="text" name="user" id="userField" value="John Doe" ng-model="user" />
+                Your Name: <input type="text" name="user" id="userField" value="Joe" ng-model="user" />
                 <select ng-model="currentRoom" ng-change="setCurrentRoom(currentRoom)" 
                   ng-options="r.name for r in rooms" id="roomSelect"></select>
             </div>
